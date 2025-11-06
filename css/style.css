@@ -1,0 +1,127 @@
+.nav_class{
+    background-color: #1E202B;
+}
+.navbar .nav-item .nav-link{
+    color: white;
+    margin: 0 20px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    padding: 3px 20px;
+    transition: all 0.5s;
+}
+.navbar .nav-item .nav-link:hover{
+    border-color: #009AD8;
+    color: #009AD8;
+}
+.form-control{
+    border: none;
+     background-color: #1E202B;
+     
+    
+     
+    
+}
+.search_input{
+    background-color: #1E202B;
+    
+}
+.form-control:focus{
+    background-color:#1E202B ;
+    color: #75756E;
+    box-shadow: 0 0 0;
+}
+.form-control::placeholder{
+    color: #75756E;
+}
+#home{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color:#1E202B ;
+}
+.inner{
+    background-color: #323544;
+    color: white;
+    height: 473px;
+}
+.inner p{
+    font-size: 120px;
+}
+.inner2{
+    height: 473px;
+     background-color: #1E202B;
+    
+}
+#third{
+    background-color: #323544;
+}
+.header{
+    background-color: #1e202b4a;
+}
+.header2{
+     background-color: #2225309e;
+     border: 2px solid white;
+}
+.form-control::placeholder {
+    color: gray;
+    
+}
+.form-control{
+    color: white;
+}
+.form-control:focus{
+    color: white;
+}
+.footer{
+    background-color: #262936;
+}
+.inner_footer{
+    background-color: #1E202B;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+i{
+    color:  #009AD8;
+    transition: all 0.5s;
+}
+.icon:hover{
+    background-color: #009AD8;
+}
+.icon:hover i{
+    color: white;
+}
+.contact_header{
+    background-color: #262936;
+}
+.contact{
+    background-color:#1E202B;
+}
+.box2{
+    width: 500px;
+    height: 400px;
+    background-color: #262936
+}
+.contact_inner2 .form-control{
+
+    border: 1px solid gray;
+    transition: all 0.1s;
+}
+textarea{
+    
+    height: 200px;
+}
+.contact_inner2 .form-control:hover{
+    border-color: #009AD8;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+     border-color: #009AD8;
+    color: #009AD8;
+
+}

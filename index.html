@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+   <nav class="navbar navbar-expand-lg nav_class py-5 px-5">
+  <div class="container ">
+    <a class="navbar-brand" href="#"><div class="d-flex justify-content-center align-items-center column-gap-2">
+      <img src="./images/logo@2x.png" class="col-3" alt="cloud">
+      <div>
+        <h4 class="text-white"> Weather</h4> 
+        <h5 class="text-white-50">tagline goes here</h5>
+      </div>
+    </div></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" id="homepage">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Live cameras</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">photos</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" id='contact'href="contact.html" target="_self">contact</a>
+        </li>
+    
+      
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<div id="firstpage">
+  <section id="home" class="py-5 vh-100">
+  <div class="w-75 mx-auto d-flex search_input px-1 py-1 rounded-pill">
+    <input type="text" class="form-control rounded-pill" placeholder="Find your location" id="search_input"/>
+    <button class="btn btn-info rounded-pill px-4 " id="find_btn">Find</button>
+  </div>
+  <div class="container">
+    <div class="row mt-3 ">
+      <div class="col-md-4">
+        <div class="inner">
+          <div class="d-flex justify-content-between px-1">
+            <h5>sunday</h5>
+            <h6>2november</h6>
+          </div>
+
+          <div class="px-3 py-4">
+            <h4>cairo</h4>
+          <p class="fw-bold">24C</p>
+          <img src="./images/116 (1).png" alt="sun">
+          <h6 class="text-info">Partly cloudy</h6>
+          <div class="d-flex column-gap-4">
+            <div><i class="fa-solid fa-cloud-rain"></i> 20%</div>
+          <div><i class="fa-solid fa-wind"></i> 18 km/h</div>
+           <div><i class="fa-solid fa-compass"></i> East</div>
+          </div>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-4">
+        <div class="inner2 d-flex flex-column justify-content-center align-items-center position-relative" id="second">
+         
+        </div>
+      </div>
+         <div class="col-md-4">
+        <div class="inner2 d-flex flex-column justify-content-center align-items-center position-relative" id="third">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<section class="footer py-5">
+  <div class="container">
+    <div class="row justify-content-center align-items-center ">
+      <div class="col-md-6">
+        <div class="inner_footer rounded-pill ">
+          <div class="d-flex">
+            <input type="text" placeholder="Enter your email to subscribe" name="email" class="form-control rounded-pill">
+          <button class="btn btn-info rounded-pill">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="footer_icons d-flex">
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f "></i>
+          </div>
+         <div class="icon">
+           <i class="fa-brands fa-twitter "></i>
+         </div>
+          <div class="icon"><i class="fa-brands fa-google-plus "></i></div>
+          <div class="icon">
+            <i class="fa-brands fa-pinterest "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <p class="text-white ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
